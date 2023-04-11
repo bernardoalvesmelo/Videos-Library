@@ -4,6 +4,7 @@
 Para rodar a aplicação basta digitar o comando: npm run dev
 
 Referências dos vídeos:
+
 https://pixabay.com/videos/snail-mollusc-nature-animals-brown-3012/
 
 https://pixabay.com/videos/puppy-dog-playful-beach-sand-play-4740/
