@@ -1,0 +1,141 @@
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.header{
+  height: 5rem;
+  display: flex;
+  padding: 0 1rem;
+  justify-content: space-between;
+  background-color: #ded2e0;
+  border-bottom: 0.5rem solid rgb(127, 128, 95);
+}
+
+@media (max-width:700px){
+  .video video {
+    height: 100vh;
+    width: 100vw;
+    border: 0;
+  }
+}
+
+.header h1 {
+  color: #56577c;
+  font-size: 2.2rem;
+  font-family: sans-serif;
+}
+
+.header h2 {
+  cursor: pointer;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: sans-serif;
+}
+
+.header h2:hover{
+  cursor: pointer;
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: sans-serif;
+  color:#2d3163;
+}
+
+@media (max-width:700px){
+  .header h1 {
+    font-size: 6.2vw;
+  }
+  .header h2 {
+    font-size: 6.2vw;
+  }
+  .header h2:hover{
+    font-size: 6.3vw;
+  }
+}
+
+.video-list {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 30rem;
+  overflow: auto;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 33rem;
+  overflow: auto;
+}
+
+.video video {
+  border: 0.5rem solid #1a1a1a;
+}
+
+.thumbnail {
+  background-color: #d6d6d8;
+  color:rgb(5, 3, 29);
+  margin: 2rem;
+  height: 16rem;
+  width: 20rem;
+  border-radius: 5%;
+}
+
+.thumbnail:hover {
+  background-color: #d6d6d8;
+  color:rgb(96, 97, 17);
+  cursor: pointer;
+  margin: 2rem;
+  height: 16rem;
+  width: 20rem;
+  border-radius: 5%;
+  border: 1rem solid #3c4088;
+  border-bottom: 2rem solid #3c4088;
+}
+
+.thumbnail h2 {
+  padding-top: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.thumbnail img {
+  height: 12rem;
+  width: 20rem;
+  border-radius: 5%;
+}
+
+.footer {
+  height: 2rem;
+  display: flex;
+  padding: 0 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #b6acb8;
+  border-top: 0.5rem solid rgb(127, 128, 95);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  font-family: sans-serif;
+}
+
